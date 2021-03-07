@@ -11,4 +11,4 @@ Only works in webkit browsers (Safari/Chrome).
 There are 2 tricks involved:
 
 - `contenteditable` prop to the style element
-- `[contenteditable] {-webkit-user-modify: read-write-plaintext-only;}` css to handle newlnes properly
+- `[contenteditable] {-webkit-user-modify: read-write-plaintext-only;}` css to handle newlines properly
