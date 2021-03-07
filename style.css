@@ -1,0 +1,29 @@
+body {
+    background-color: #eeeeee;
+}
+
+/* Edit the styles in head */
+head {
+    display: block;
+}
+
+head * {
+    display: none;
+}
+
+/* This line is necessary to handle enter key properly */
+[contenteditable] {-webkit-user-modify: read-write-plaintext-only;}
+
+head #editable {
+    display: block;
+    white-space: pre-wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #dddddd;
+}
+head #editable::before {
+    color: #888888;
+    content: "/* Inline edit styles and see the chanegs in real time */"
+}
