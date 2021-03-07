@@ -25,5 +25,5 @@ head #editable {
 }
 head #editable::before {
     color: #888888;
-    content: "/* Inline edit styles and see the chanegs in real time */"
+    content: "/* Inline edit styles and see the changes in real time */"
 }
